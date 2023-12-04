@@ -1,0 +1,9 @@
+.navbars {
+    display: flex;
+    list-style: none;
+}
+
+.navbars-font {
+    color: #fff;
+    text-decoration: none;
+}

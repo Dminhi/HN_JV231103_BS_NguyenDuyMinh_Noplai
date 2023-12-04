@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@400;600;700&display=swap');
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  /* body {
+      height: 100vh;
+  }
+   */
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .container {
+      width: 100%;
+      height: 45%;
+      background-image: url(../assests/Img/z4900335413985_719e35a700e3ce9b777ef33485c69465.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  
+  .header {
+      height: 56px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 8%;
+  }
+  
+  .title {
+      font-size: 36px;
+      width: 35%;
+      height: 100%;
+  }
+  
+  .navbars {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      width: 65%;
+  }
+  
+  .navbars-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 36px;
+  }
+  
+  .navbars-menu-font {
+      color: #fff;
+  }
+  
+  .navbar-icon {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+  }
+  
+  .navbars-menu-icon {
+      color: #fff;
+  }
+  
+  .font-family {
+      color: #fff;
+      font-family: 'Dancing Script', cursive;
+  }
+  
+  .button {
+      color: #fff;
+      background-color: #ffc116;
+      height: 36px;
+      min-width: 80px;
+      border-radius: 10px;
+      padding: 0 16px;
+      outline: none;
+  }
+  
+  .main {
+      height: calc(100vh - 56px);
+      width: 100%;
+      margin-left: 8%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 56px;
+  }
+  
+  .main-top {
+      font-size: 56px;
+  }
+  
+  .main-mid {
+      color: #fff;
+      width: 40%;
+  }
+  
+  .main-bottom {
+      /* bottom: ; */
+  }
+  
+  .main-icon {}
+  
+  .container2 {
+      height: 55%;
+      width: 100%;
+      background-image: url(../assests/Img/z4900344614338_2d5c48f9cd3971bf3c121152d35d5c3e.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
